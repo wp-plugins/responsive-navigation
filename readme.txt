@@ -16,11 +16,17 @@ Worpdress Responsive Navigation Plugin will help You to convert WordPress menu t
 
 
 *Multi-level menu support
+
 *Flexible, simple markup
+
 *Cross-browser compatibility and works on all type of mobile devices
+
 *Easy to use admin interface
+
 *Fully customizable From Admin Setting- choose width, custom menu button text, which menus to affect, and more.
+
 *select your custom colors to match with your theme.
+
 *Ability to  hide unwanted elements on mobile devices.
 
 == Installation ==
@@ -39,6 +45,5 @@ Worpdress Responsive Navigation Plugin will help You to convert WordPress menu t
 3. In Responsive Navigation admin setting : Add Class OR ID  (Add Here Element class OR id including "#" OR "." Where You Prepend Responsive Navigation Example: #header) 
 
 == Screenshots ==
-1. http://help4cms.com/Help4Cms-Wordpress-Plugins/Admin-setting.png
-2. http://help4cms.com/Help4Cms-Wordpress-Plugins/Frentend-View.png
-3. http://help4cms.com/Help4Cms-Wordpress-Plugins/Frentend-view-after-Menu-open.png
+1. Admin Setting
+2. Frentend View of Responsive Navigation Plugin
