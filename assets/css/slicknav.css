@@ -1,0 +1,133 @@
+/*
+    Mobile Menu Core Style
+*/
+
+.responsive-navigation_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.responsive-navigation_menu  .responsive-navigation_menutxt { display: block; line-height: 1.188em; float: left; }
+.responsive-navigation_menu .responsive-navigation_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.responsive-navigation_menu .responsive-navigation_no-text { margin: 0 }
+.responsive-navigation_menu .responsive-navigation_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+.responsive-navigation_btn .responsive-navigation_icon-bar + .responsive-navigation_icon-bar { margin-top: 0.188em }
+.responsive-navigation_nav { clear: both }
+.responsive-navigation_nav ul,
+.responsive-navigation_nav li { display: block }
+.responsive-navigation_nav .responsive-navigation_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.responsive-navigation_nav .responsive-navigation_item { cursor: pointer; }
+.responsive-navigation_nav .responsive-navigation_row { display: block; }
+.responsive-navigation_nav a { display: block }
+.responsive-navigation_nav .responsive-navigation_item a,
+.responsive-navigation_nav .responsive-navigation_parent-link a { display: inline }
+.responsive-navigation_brand { float:left }
+.responsive-navigation_menu:before,
+.responsive-navigation_menu:after { content: " "; display: table; }
+.responsive-navigation_menu:after { clear: both }
+/* IE6/7 support */
+.responsive-navigation_menu { *zoom: 1 }
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+
+.responsive-navigation_menu {
+    font-size:16px;
+    box-sizing:border-box;
+}
+.responsive-navigation_menu * {
+  box-sizing:border-box;
+}
+/* Button */
+.responsive-navigation_btn {
+    margin: 5px 5px 6px;
+    text-decoration:none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;  
+    background-color: #222222;
+}
+/* Button Text */
+.responsive-navigation_menu  .responsive-navigation_menutxt {
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 0 1px 3px #000;
+}
+/* Button Lines */
+.responsive-navigation_menu .responsive-navigation_icon-bar {
+  background-color: #f5f5f5;
+}
+.responsive-navigation_menu {
+    background:#4c4c4c;
+    padding:5px;
+}
+.responsive-navigation_nav {
+    color:#fff;
+    margin:0;
+    padding:0;
+   /* font-size:0.875em;*/
+   font-size:inherit;
+}
+.responsive-navigation_nav, .responsive-navigation_nav ul {
+    list-style: none;
+    overflow:hidden;
+}
+.responsive-navigation_nav ul {
+    padding:0;
+    margin:0 0 0 20px;
+}
+.responsive-navigation_nav .responsive-navigation_row {
+    padding:5px 10px;
+    margin:2px 5px;
+}
+.responsive-navigation_nav a{
+    padding:5px 10px;
+    margin:2px 5px;
+    text-decoration:none;
+    color:#fff;
+}
+
+.responsive-navigation_nav li a{
+    padding:5px 10px;
+    margin:2px 5px;
+    text-decoration:none;
+    color:#fff;
+}
+.responsive-navigation_nav .responsive-navigation_item a,
+.responsive-navigation_nav .responsive-navigation_parent-link a {
+    padding:0;
+    margin:0;
+}
+.responsive-navigation_nav .responsive-navigation_row:hover {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background:#ccc;
+    color:#fff;
+}
+.responsive-navigation_nav a:hover{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background:#ccc;
+    color:#222;
+	text-decoration:none
+}
+.responsive-navigation_nav .responsive-navigation_txtnode {
+    margin-left:15px;   
+}
+.responsive-navigation_brand {
+	color:#fff;
+	font-size: 18px;
+	line-height:30px;
+	padding:7px 12px;
+	height:44px;
+}
+
+
+.responsive-navigation-fix {
+ z-index: 9999;
+ position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+  }
