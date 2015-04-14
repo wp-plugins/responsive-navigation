@@ -40,6 +40,7 @@ Worpdress Responsive Navigation Plugin will help You to convert WordPress menu t
 4. Configure setting 
 
 ===Required Setting===
+
 1. In Responsive Navigation admin setting : Choose Menu To Responsify (Show here Dropdown Menu choose here menu for Responsify)  
 
 2. In Responsive Navigation admin setting : Menu Breakpoint (Add here Width , Below this width show responsive menu)
