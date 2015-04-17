@@ -13,7 +13,9 @@ Description: This plugin Convert show desktop menu to Mobile menu.
 define('directory', plugins_url('responsive-navigation') );
 $options = get_option('responsive_navigation');
 //print_r($options);
+if(!empty($options )){
 extract($options);
+};
 
 
 
