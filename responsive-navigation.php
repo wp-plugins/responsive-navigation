@@ -271,7 +271,7 @@ wp_enqueue_style( 'responsive-navigation-stylesheet', directory . '/assets/css/s
 add_action('wp_head', 'responsive_navigation', 100);
 function responsive_navigation() {
 global $responsive_menu;
-echo '<div id="responsive_navigation">';
+echo '<div id="responsive_navigation" style="display:none;">';
 wp_nav_menu( array('menu'=>$responsive_menu,'theme_location' => 'primary'));
 echo '</div>';
 }
