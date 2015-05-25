@@ -199,7 +199,7 @@ array(
      * @since 0.1.0
      */
     public function add_options_page() {
-        $this->options_page = add_menu_page( $this->title, $this->title, 'manage_options', $this->key, array( $this, 'admin_page_display' ) );
+        $this->options_page = add_menu_page( $this->title, $this->title, 'manage_options', $this->key, array( $this, 'admin_page_display' ) ,'dashicons-menu');
     }
 
 
