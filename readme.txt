@@ -1,6 +1,6 @@
 === Responsive Navigation ===
 Contributors: Mudit Kumawat
-Tags:  responsive, android, iphone, jquery, menu, mobile, navigation, phone, tablet
+Tags:  responsive, android, iphone, jquery, menu, mobile, navigation, phone, tablet, multilevel menu
 Donate link: http://help4cms.com/
 Requires at least: 3.0
 Tested up to: 4.1.1
@@ -15,19 +15,19 @@ Responsive Navigation Plugin will help You to convert WordPress menu to responsi
 Worpdress Responsive Navigation Plugin will help You to convert WordPress menu to responsive menu and It's easily customizable form wordpress admin . 
 
 
-*Multi-level menu support
+* Multi-level menu support
 
-*Flexible, simple markup
+* Flexible, simple markup
 
-*Cross-browser compatibility and works on all type of mobile devices
+* Cross-browser compatibility and works on all type of mobile devices
 
-*Easy to use admin interface
+* Easy to use admin interface
 
-*Fully customizable From Admin Setting- choose width, custom menu button text, which menus to affect, and more.
+* Fully customizable From Admin Setting- choose width, custom menu button text, which menus to affect, and more.
 
-*select your custom colors to match with your theme.
+* select your custom colors to match with your theme.
 
-*Ability to  hide unwanted elements on mobile devices.
+* Ability to  hide unwanted elements on mobile devices.
 
 == Installation ==
 
