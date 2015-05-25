@@ -265,7 +265,12 @@ function responsive_navigation_meta_boxes() {
 
 // Add Script And Css File
 wp_enqueue_script('responsive-navigation-jquery', directory . '/assets/js/jquery.slicknav.js', array('jquery'), '1.0', true);
+
+
+function adding_stylesheet() {
 wp_enqueue_style( 'responsive-navigation-stylesheet', directory . '/assets/css/slicknav.css' );
+}
+add_action('wp_enqueue_scripts', 'adding_stylesheet','30');
 
 
 add_action('wp_head', 'responsive_navigation', 100);
